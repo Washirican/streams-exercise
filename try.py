@@ -11,4 +11,4 @@ value = sys.argv[1]
 
 my_stream_processor = StreamProcessor(io.StringIO(value))
 result = my_stream_processor.process()
-print("Processed {} and got {}".format(value, result))
+print("Processed {} and got result {}".format(value, result))
